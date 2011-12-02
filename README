@@ -1,0 +1,28 @@
+Switcher is a simple plugin for PyroCMS version 2+
+
+It allows you to allocate a number of alternative css classes to an element that is running within a block of code
+for example the blog module
+
+Installation as per any other plugin for PyroCMS.
+
+Syntax
+
+{{ switcher:class_row class="red|blue|white" }}
+
+Note:
+That it uses the pipe key between each class.
+No limit to the number of classes.
+
+Example:
+Within the blog Module, on the page that dislays a list of teasers
+
+{{ blog:posts limit="5" order-by="title" order-dir="desc" url="news" }}
+<!-- Use switcher here -->
+<div class="{{ switcher:class_row class="red|blue|white" }}">
+
+// Now the rest of your code/markup
+
+
+</div>
+{{/blog:posts}}
+
