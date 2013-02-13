@@ -1,3 +1,9 @@
+UPDATE
+
+Not required any more for PyroCMS 2.2 +
+
+----------------------------------------------
+
 Switcher is a simple plugin for PyroCMS version 2+
 
 It allows you to allocate a number of alternative css classes to an element that is running within a block of code
